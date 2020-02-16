@@ -85,7 +85,6 @@ The ```find``` command searches for only **.py** files in the repository. The ``
       /home/kamalp/private/CS1XA3/Project01/test2.py:#ABC I <3 BASH!!!
 
 --------------------------------------------------------------------
-
 ### Custom Feature 1 (Owner of Files)
 
  ~~ **Description**: This feature counts the total number of occurences of a **"word"** (prompted by the user) for files present in the repository and checks if any of the files are owned by the user editing the script.
@@ -94,3 +93,4 @@ The ```find``` command searches for only **.py** files in the repository. The ``
 
 ### Custom Feature 2 (Search & Destroy)
  ~~ **Description**: This feature finds all text files (i.e ending in ```.txt```) in the repository. For all lines in files ending with **Upper-case letters**, it removes the file(s) and counts how many file(s) were destroyed.
+

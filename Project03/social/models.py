@@ -1,6 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+
 class Interest(models.Model):
     label = models.CharField(max_length=30,primary_key=True)
 
@@ -21,6 +22,7 @@ class UserInfo(models.Model):
     birthday = models.DateField(null=True,blank=True)
     interests = models.ManyToManyField(Interest)
     friends = models.ManyToManyField('self')
+
 
 class Post(models.Model):
     owner = models.ForeignKey(UserInfo,
